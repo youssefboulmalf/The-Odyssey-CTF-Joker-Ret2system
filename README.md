@@ -19,6 +19,7 @@ zsh: segmentation fault  ./joker
 ```
 
 main function
+
 ![](https://note.rootams.nl/pad/uploads/a549b3c1-cbed-4a65-ba80-36de6bdd6e78.png)
 
 The binary has been statically linked, rendering ret2libc impossible. The binary has been stripped, so function names cant be read. The functions look like libc functions so with some analysis we can fill out most function names:
